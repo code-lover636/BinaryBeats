@@ -3,11 +3,13 @@
 import pickle
 
 # CHANGE THESE VALUES
-INPUT_FILE = "binary_player.py"  # Path to the input text file
-OUTPUT_FILE = "music.bin"        # Path to the output binary file
+INPUT_FILE = "README.md"  # Path to the input text file
+OUTPUT_FILE = "music.bin" # Path to the output binary file
 
 with open(INPUT_FILE, 'r', encoding='utf-8') as text_file:
     content = text_file.read()
 
 with open(OUTPUT_FILE, 'wb') as binary_file:
     pickle.dump(content, binary_file)
+
+https://github.com/code-lover636/BinaryBeats.git
