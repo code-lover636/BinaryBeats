@@ -1,7 +1,13 @@
+# Run this file if u need to convert any text file to binary file
+
 import pickle
 
-with open('binary_player.py', 'r', encoding='utf-8') as text_file:
+# CHANGE THESE VALUES
+INPUT_FILE = "binary_player.py"  # Path to the input text file
+OUTPUT_FILE = "music.bin"        # Path to the output binary file
+
+with open(INPUT_FILE, 'r', encoding='utf-8') as text_file:
     content = text_file.read()
 
-with open('music.bin', 'wb') as binary_file:
+with open(OUTPUT_FILE, 'wb') as binary_file:
     pickle.dump(content, binary_file)
