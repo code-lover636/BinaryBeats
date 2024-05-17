@@ -38,5 +38,5 @@ At the heart of this project lies the core idea: what if we used the unique patt
 
 ## Run
 
-    python binary_player.py <output_file_name>
+    python binary_player.py <input_file>
     
