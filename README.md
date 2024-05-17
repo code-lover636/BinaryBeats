@@ -29,9 +29,11 @@ At the heart of this project lies the core idea: what if we used the unique patt
     ```
     sudo apt-get install -y python3-dev libasound2-dev
     ```
-    
+
 3. Install libraries
 
     ```
     pip install pydub simpleaudio
     ```
+
+
