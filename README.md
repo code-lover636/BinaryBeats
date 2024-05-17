@@ -33,7 +33,7 @@ At the heart of this project lies the core idea: what if we used the unique patt
 3. Install libraries
 
     ```
-    pip install pydub simpleaudio
+    pip install -r requirements.txt
     ```
 
 ## Run
